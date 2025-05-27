@@ -1,0 +1,305 @@
+/* ========== CSS Reset ========== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 1863px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[hidden] {
+  display: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+header {
+  background-color: #ead9d3;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.header-nav nav ul {
+  display: flex;
+  gap: 30px;
+  color: rgba(66, 33, 11, 0.63);
+  font-size: 40px;
+}
+
+.header-info {
+  display: flex;
+  width: 100%;
+}
+
+.header-info-col-1 {
+  flex: 1;
+  margin: 110px;
+  width: 900px;
+}
+
+.header-info-col-1 h1 {
+  color: #42210b;
+  margin-top: 10px;
+  font-size: 68px;
+}
+
+.header-info-col-1 button {
+  margin-top: 20px;
+  background-color: #bccab3;
+  border-radius: 30px;
+  font-size: 36px;
+  padding: 15px 30px;
+  color: #573824;
+}
+
+.header-info-col-2 {
+  flex: 1;
+  padding: 0;
+}
+
+.header-info-col-2 img {
+  border-top: 5px solid #bccab3;
+  border-left: 5px solid #bccab3;
+  border-right: 5px solid #bccab3;
+  border-bottom: none;
+  border-top-left-radius: 370px;
+  border-top-right-radius: 370px;
+  padding: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.about {
+  display: flex;
+  background-color: #d3c9e2;
+  height: 100%;
+}
+
+.about-img img {
+  flex: 1;
+  width: 85%;
+}
+
+.about-info {
+  flex: 1;
+}
+
+.about-info h1 {
+  text-align: end;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 108px;
+  color: #42210b;
+  padding: 40px;
+}
+
+.about-info p {
+  text-align: left;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 68px;
+  color: #42210b;
+}
+
+.about-info span {
+  font-weight: bolder;
+}
+
+
+
+.assortment {
+   display: flex;
+   flex-direction: column;
+   gap: 150px;
+   background-color: #EAD9D3;
+   padding-bottom: 200px;
+}
+
+.assortment h1 {
+ padding-top: 40px;
+padding-left: 100px;
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 108px;
+
+color: #42210B;
+
+
+}
+
+
+.assortment-items-line-1 {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+
+.assortment-items-line-2 {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+
+.assortment-items-line-3 {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+
+
+
+.card {
+   height: auto;
+   width: 530px;
+   border-radius: 30px;
+   background-color: #BCCAB3;
+
+}
+
+.card h1 {
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 61px;
+color: #42210B;
+padding-top: 25px;
+padding-left: 20px;
+
+}
+
+
+.card p {
+text-align: left;
+font-family: 'Jaldi';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+color: #42210B;
+padding-top: 25px;
+padding-left: 20px;
+padding-bottom: 30px;
+
+line-height: 41px;
+
+
+
+
+
+}
+
+.card img {
+   padding-top: 25px;
+   padding-left: 20px;
+   width: 500px;
+}
+
+
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 40px;
+   padding-right: 40px;
+   height: 230px;
+   background-color: #D3C9E2;
+
+
+}
+
+.footer-info p {
+   text-align: right;
+   color: #42210B;
+   font-size: 22px;
+}
+
+.footer-info h1 {
+   color: #42210B;
+
+}
