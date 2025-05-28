@@ -80,6 +80,12 @@ textarea {
   outline: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+
+
+
 header {
   background-color: #ead9d3;
 }
@@ -103,6 +109,9 @@ header {
   gap: 30px;
   color: rgba(66, 33, 11, 0.63);
   font-size: 40px;
+  font-family: "Jaldi", sans-serif;
+  font-style: normal;
+
 }
 
 .header-info {
@@ -119,7 +128,10 @@ header {
 .header-info-col-1 h1 {
   color: #42210b;
   margin-top: 10px;
-  font-size: 68px;
+  font-size: 58px;
+  font-family: "Jaldi", sans-serif;
+  font-style: normal;
+
 }
 
 .header-info-col-1 button {
@@ -133,7 +145,6 @@ header {
 
 .header-info-col-2 {
   flex: 1;
-  padding: 0;
 }
 
 .header-info-col-2 img {
@@ -144,6 +155,7 @@ header {
   border-top-left-radius: 370px;
   border-top-right-radius: 370px;
   padding: 30px;
+  padding-bottom: 0px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -167,11 +179,11 @@ header {
   text-align: end;
   font-family: "Jaldi";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 64px;
   line-height: 108px;
   color: #42210b;
-  padding: 40px;
+padding-right:30px ;
 }
 
 .about-info p {
@@ -179,9 +191,10 @@ header {
   font-family: "Jaldi";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 68px;
   color: #42210b;
+  padding-top: 20px;
 }
 
 .about-info span {
@@ -193,7 +206,7 @@ header {
 .assortment {
    display: flex;
    flex-direction: column;
-   gap: 150px;
+   gap: 110px;
    background-color: #EAD9D3;
    padding-bottom: 200px;
 }
@@ -206,7 +219,6 @@ font-style: normal;
 font-weight: 900;
 font-size: 64px;
 line-height: 108px;
-
 color: #42210B;
 
 
@@ -245,7 +257,7 @@ color: #42210B;
 font-family: 'Jaldi';
 font-style: normal;
 font-weight: 700;
-font-size: 56px;
+font-size: 50px;
 line-height: 61px;
 color: #42210B;
 padding-top: 25px;
@@ -294,12 +306,14 @@ line-height: 41px;
 }
 
 .footer-info p {
+  font-family: "Jaldi";
    text-align: right;
    color: #42210B;
    font-size: 22px;
 }
 
 .footer-info h1 {
+  font-weight: 100;
    color: #42210B;
-
+   font-family: "Jaldi";
 }
