@@ -69,4 +69,4 @@ git clone https://github.com/ваш-username/petalia-flower-shop.git
 <img src="https://i.postimg.cc/CKfSw4Rf/3.png" width="1000" alt="Каталог цветочных композиций"/>
 
 
-#https://kiberwitch.github.io/Petalia-flower-shop/
+# https://kiberwitch.github.io/Petalia-flower-shop/
