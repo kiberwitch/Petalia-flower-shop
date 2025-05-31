@@ -54,3 +54,16 @@ git clone https://github.com/ваш-username/petalia-flower-shop.git
 - Акцент на атмосферные описания букетов
 - Четкая визуальная иерархия
 - Декоративные элементы
+
+---
+
+## Скриншоты интерфейса
+
+### Главная страница
+<img src="https://i.postimg.cc/qRV0qCKD/1.png" width="1000" alt="Главная страница Petalia"/>
+
+### О нас
+<img src="https://i.postimg.cc/Cx2wy2xg/2.png" width="1000" alt="О нас"/>
+
+### Каталог букетов
+<img src="https://i.postimg.cc/CKfSw4Rf/3.png" width="1000" alt="Каталог цветочных композиций"/>
